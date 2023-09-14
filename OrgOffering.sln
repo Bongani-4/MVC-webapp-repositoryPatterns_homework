@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrgOffering", "OrgOffering\OrgOffering.csproj", "{C79ED1EC-9184-4E9E-8957-F4F5EDB1AF8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C79ED1EC-9184-4E9E-8957-F4F5EDB1AF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79ED1EC-9184-4E9E-8957-F4F5EDB1AF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79ED1EC-9184-4E9E-8957-F4F5EDB1AF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79ED1EC-9184-4E9E-8957-F4F5EDB1AF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76D8517E-F31B-4113-BF44-416945568242}
+	EndGlobalSection
+EndGlobal
