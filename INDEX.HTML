@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
+    <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
+   
+    
+    <script>
+ 
+        function openContactPage() {
+            window.location.href = "contact.html"; 
+        }
+        function openDatesPage() {
+            window.location.href = "Duedates.html"; 
+        }
+
+    </script>
+    <link rel="stylesheet" href="styleS.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Due Date Dynamo</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="images/Logo-NWU.png" class="icon">
+            <ul>   
+                <li><a href="#">Home </a></li>
+                <li><a href="#">IT HELP</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Upcoming Deadlines</h1>
+            <p>Take a look at the deadlines you have for your modules.<br>So you can prepare early and alleviate stress.</p>
+            <div>
+                <button type="button" onclick="openDatesPage()"><span></span>VIEW</button>
+                <button type="button" onclick="openContactPage()"><span></span> QUERY US</button>
+            </div>
+            <table id="deadlinesTable">
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
